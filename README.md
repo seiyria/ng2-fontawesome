@@ -4,7 +4,19 @@ An easy-to-use directive for [font awesome](https://github.com/FortAwesome/Font-
 # Install
 `npm i -s ng2-fontawesome`
 
-# Sample Usage
+# Usage
+First, make sure you have a CSS and font loader set up for webpack, like so:
+```
+{
+  test: /\.css/,
+  loader: 'style!css'
+},
+{
+  test: /\.woff|\.woff2|\.svg|.eot|\.ttf/,
+  loader: 'file'
+},
+```
+
 It is recommended that you globally apply the Font Awesome directive like so:
 
 ```
