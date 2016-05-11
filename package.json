@@ -1,0 +1,33 @@
+{
+  "name": "ng2-fontawesome",
+  "version": "0.0.1",
+  "description": "An easy-to-use directive for font awesome icons.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seiyria/ng2-fontawesome.git"
+  },
+  "keywords": [
+    "ng2",
+    "angular2",
+    "fontawesome",
+    "font",
+    "awesome",
+    "ng2-fontawesome",
+    "angular2-fontawesome"
+  ],
+  "author": "Kyle Kemp <kyle@seiyria.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seiyria/ng2-fontawesome/issues"
+  },
+  "homepage": "https://github.com/seiyria/ng2-fontawesome#readme",
+  "dependencies": {
+  },
+  "peerDependencies": {
+    "@angular/core": "2.0.0-rc.1"
+  }
+}
