@@ -19,6 +19,9 @@
     "ng2-fontawesome",
     "angular2-fontawesome"
   ],
+  "scripts": {
+    "compile": "babel src/index.js -o index.js --plugins transform-decorators-legacy,transform-class-properties --presets es2015"
+  },
   "author": "Kyle Kemp <kyle@seiyria.com>",
   "license": "MIT",
   "bugs": {
@@ -30,5 +33,10 @@
   },
   "peerDependencies": {
     "@angular/core": "2.0.0-rc.1"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-class-properties": "^6.9.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.9.0"
   }
 }
