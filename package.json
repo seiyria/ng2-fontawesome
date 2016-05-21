@@ -1,6 +1,6 @@
 {
   "name": "ng2-fontawesome",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "An easy-to-use directive for font awesome icons.",
   "main": "index.js",
   "scripts": {
