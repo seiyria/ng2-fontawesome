@@ -1,6 +1,6 @@
 {
   "name": "ng2-fontawesome",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An easy-to-use directive for font awesome icons.",
   "main": "index.js",
   "scripts": {
@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/seiyria/ng2-fontawesome#readme",
   "dependencies": {
+    "fontawesome": "^4.5.0"
   },
   "peerDependencies": {
     "@angular/core": "2.0.0-rc.1"
